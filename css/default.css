@@ -1,6 +1,24 @@
 .footer-text {
     font-size: 80%;
     text-align: center;
+    color: white;
+}
+
+.carwashimg {
+    max-height: 220px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+}
+
+.footer-row {
+    background-color: green;
 }
 
 body {
@@ -10,12 +28,17 @@ body {
 }
 
 .navbar div {
-    background-color: black;
+    background-color: green;
 }
 
 .navbar div ul li a {
     font-size: 150%;
     margin: 3px;
+}
+
+.btn-overwrite {
+    background-color: green;
+    color: white;
 }
 
 .border {
@@ -68,11 +91,11 @@ div img {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  top: -30px;
   width: 100%;
   text-align: center;
 }
